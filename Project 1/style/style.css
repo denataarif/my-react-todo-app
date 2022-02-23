@@ -1,5 +1,7 @@
 body{
     font-family: helvetica;
+    margin: 0;
+    padding: 0;
 }
 #header{
     padding-top: 24px;
@@ -80,7 +82,7 @@ body{
 
 @media  screen and (min-width: 1024px) {
     #why-us{
-        margin: 100px 207px 100px 207px;
+        margin: 100px 136px 100px 136px;
     }
 }
 #why-us{
@@ -95,4 +97,41 @@ body{
     margin-bottom: 32px;
     width: 268px;
     height: 250px;
+}
+
+@media  screen and (min-width: 1040px){
+    #Testimonial{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .list-test .row{
+        display: flex;
+        justify-content: space-between;
+        width: 1921px;
+        margin-left: -255px;
+    }
+}
+
+.label1{
+    width: 619px;
+    height: 270px;
+    background-color: #F1F3FF;
+    border-radius: 8px;
+    margin-top: 32px;
+    display: flex;
+
+}
+.testi-keterangan{
+    margin-top: 69px;
+    width: 415px;
+    height: 132px;
+}
+.testi-foto{
+    padding: 95px 46px 95px 46px;
+}
+.button-testi{
+    margin-top: 24px;
+}
+.button-kiri{
+    margin-right: 24px;
 }
