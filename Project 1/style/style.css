@@ -52,8 +52,6 @@ body{
 }
 @media screen and (min-width: 1024px){
     #hero-section .hero-image{
-        /* position: absolute; */
-        /* z-index: 1000; */
         height: 407px;
         width: 704px;
         -webkit-transform: translateX(1%);
