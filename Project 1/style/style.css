@@ -1,0 +1,53 @@
+body{
+    font-family: helvetica;
+}
+#header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #F1F3FF;
+}
+#header .header-logo{
+    width: 100px;
+    height: auto;
+}
+#header .nav-menu li{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+#header .nav-menu li a{
+    text-decoration: none;
+    color: black;
+}
+#header .nav-menu li a.register{
+    border: solid #5CB85F;
+    border-radius: 2px;
+    background-color: #5CB85F;
+    padding: 8px 12px;
+    color: white;
+}
+
+#main{
+    overflow: hidden;
+    background-color: #F1F3FF;
+}
+#main .hero-description{
+    margin-bottom: 30px;
+}
+#main .hero-description .button-mulai{
+    background-color: #5CB85F;
+    color: white;
+}
+@media screen and (min-width: 1024px){
+    #hero .hero-description{
+        margin-bottom: 0px;
+    }
+}
+.hero-image{
+    width: 100%;
+}
+@media screen and(min-width: 1024px){
+    #hero .hero-image{
+        -webkit-transform: translateX(20%); 
+         transform: translateX(20%);
+    }
+}
