@@ -135,3 +135,27 @@ body{
 .button-kiri{
     margin-right: 24px;
 }
+@media screen and (min-width: 1040px){
+    #cta-banner .container .cta-container{
+        height: 326px;
+        width: 1168px;
+        padding: 64px 270px 64px 270px;
+        margin: 100px 136px 100px 70px;
+    }
+    
+}
+#cta-banner{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#cta-banner .container .cta-container{
+    border-radius: 13px;
+    color: white;
+}
+#cta-banner .container .cta-container .cta-deskripsi{
+    padding: 30px;
+}
+#cta-banner .container .cta-container .cta-deskripsi .button-mulai{
+    background-color: #5CB85F;
+    color: white;
+}
