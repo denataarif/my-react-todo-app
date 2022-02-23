@@ -28,6 +28,9 @@ body{
 
 #main{
     overflow: hidden;
+
+}
+#hero-section{
     background-color: #F1F3FF;
 }
 #main .hero-description{
@@ -38,16 +41,31 @@ body{
     color: white;
 }
 @media screen and (min-width: 1024px){
-    #hero .hero-description{
-        margin-bottom: 0px;
+    #hero-section .hero-description{
+        margin-bottom: 81px;
+        margin-top: 93px;
+        /* padding-right: 15px; */
     }
 }
 .hero-image{
-    width: 100%;
+    width:100%;
 }
-@media screen and(min-width: 1024px){
-    #hero .hero-image{
-        -webkit-transform: translateX(20%); 
-         transform: translateX(20%);
+@media screen and (min-width: 1024px){
+    #hero-section .hero-image{
+        /* position: absolute; */
+        /* z-index: 1000; */
+        height: 407px;
+        width: 704px;
+        -webkit-transform: translateX(1%);
+        transform: translateX(1%);
     }
+}
+#Our-Services{
+    margin: 100px 207px 100px 207px;
+}
+#Our-Services .list-item-services{
+    list-style-type: none;
+}
+#Our-Services .our-services-img{
+    width: auto;
 }
