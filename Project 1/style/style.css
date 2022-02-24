@@ -159,3 +159,53 @@ body{
     background-color: #5CB85F;
     color: white;
 }
+
+@media screen and (min-width: 1040px){
+    #faq{
+        margin: 100px 136px 100px 136px;
+    }
+    #faq .container .row .col-12 .list-faq{
+        width: 668px;
+        height: 56px;
+        border: solid #D4D4D4;
+        border-radius: 4px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+#faq{
+    margin-bottom: 100px;
+}
+#faq .faq-keteragan{
+    margin-bottom: 20px;
+}
+#faq .list-faq{
+    width: 500px;
+    height: 56px;
+    border: solid #D4D4D4;
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.caption-faq{
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+.chevron{
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 1040px){
+    #footer{
+        margin: 100px 136px 100px 136px;
+        width: 1141px;
+        height: 128px;
+
+    }
+}
+.nav-footer a{
+    text-decoration: none;
+    color: black;
+}
+
