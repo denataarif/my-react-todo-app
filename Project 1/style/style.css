@@ -109,6 +109,7 @@ body{
 }
 .testi-keterangan{
     margin-top: 69px;
+    padding-right: 49px;
 }
 .testi-foto{
     padding: 95px 46px 95px 46px;
@@ -119,10 +120,12 @@ body{
 .button-kiri{
     margin-right: 24px;
 }
+
+
 @media screen and (min-width: 1040px){
     #cta-banner .container .cta-container{
-        height: 326px;
-        width: 1168px;
+        /* height: 326px;
+        width: 1168px; */
         padding: 64px 270px 64px 270px;
         margin: 100px 136px 100px 70px;
     }
@@ -133,10 +136,11 @@ body{
     margin-bottom: 100px;
 }
 #cta-banner .container .cta-container{
-    border-radius: 13px;
     color: white;
+    border-radius: 13px;
+
 }
-#cta-banner .container .cta-container .cta-deskripsi{
+#cta-banner .container .cta-container .col .cta-deskripsi{
     padding: 30px;
 }
 #cta-banner .container .cta-container .cta-deskripsi .button-mulai{
@@ -164,8 +168,6 @@ body{
     margin-bottom: 20px;
 }
 #faq .list-faq{
-    width: 500px;
-    height: 56px;
     border: solid #D4D4D4;
     border-radius: 4px;
     padding-left: 24px;
@@ -187,6 +189,10 @@ body{
         height: 128px;
 
     }
+}
+.list-faq{
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .nav-footer a{
     text-decoration: none;
