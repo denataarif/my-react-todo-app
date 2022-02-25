@@ -62,20 +62,13 @@ body{
 #Our-Services{
     margin-top:100px; 
 }
-@media  screen and (min-width: 1024px) {
-    #Our-Services{
-        margin: 100px 207px 100px 207px;
-    }
-}
 #Our-Services .our-services-deskirpsi{
     margin-bottom: 50px;
 }
 #Our-Services .list-item-services{
     list-style-type: none;
 }
-#Our-Services .our-services-img{
-    width: auto;
-}
+
 
 
 @media  screen and (min-width: 1024px) {
@@ -87,9 +80,7 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.list-row{
-    width: 1168px;
-}
+
 .card{
     margin-top: 32px;
     margin-bottom: 32px;
