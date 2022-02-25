@@ -84,7 +84,6 @@ body{
 .card{
     margin-top: 32px;
     margin-bottom: 32px;
-    width: 268px;
     height: 250px;
 }
 
@@ -148,15 +147,8 @@ body{
     #faq{
         margin: 100px 136px 100px 136px;
     }
-    #faq .container .row .col-12 .list-faq{
-        width: 668px;
-        height: 56px;
-        border: solid #D4D4D4;
-        border-radius: 4px;
-        padding-left: 24px;
-        padding-right: 24px;
-    }
 }
+
 #faq{
     margin-bottom: 100px;
 }
@@ -181,8 +173,6 @@ body{
 @media screen and (min-width: 1040px){
     #footer{
         margin: 100px 136px 100px 136px;
-        width: 1141px;
-        height: 128px;
 
     }
 }
